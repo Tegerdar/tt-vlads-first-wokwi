@@ -9,11 +9,17 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This Tiny Tapeout project is currently a minimal Wokwi-based starter design.
+At this stage, the user-facing pins are intentionally left unused while the
+core design is being finalized in Wokwi.
 
 ## How to test
 
-Explain how to use your project
+Build and run the project using the repository workflows:
+
+1. Push changes to trigger the GitHub Actions workflows.
+2. Confirm the `docs`, `gds`, and `wokwi_test` workflows complete successfully.
+3. Review the generated artifacts to verify the design is packaged correctly.
 
 ## External hardware
 
