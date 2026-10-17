@@ -4,7 +4,7 @@ project:
   title: "Vlad's first Wokwi design" # Project title
   author: "Vladislavs Lazdāns" # Your name
   discord: "" # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description: "Hex (0-F) to 7-segment display decoder built from logic gates" # One line description of what your project does
+  description: "Hex 7-segment decoder with a switchable 4-bit up-counter (dot lights at F)" # One line description of what your project does
   language: "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz: 0 # Clock frequency in Hz (or 0 if not applicable)
 
@@ -19,7 +19,7 @@ pinout:
   ui[1]: "X1"
   ui[2]: "X2"
   ui[3]: "X3"
-  ui[4]: "Unused input"
+  ui[4]: "MODE (0=switches, 1=counter)"
   ui[5]: "Unused input"
   ui[6]: "Unused input"
   ui[7]: "Unused input"
@@ -32,7 +32,7 @@ pinout:
   uo[4]: "SEG_E"
   uo[5]: "SEG_F"
   uo[6]: "SEG_G"
-  uo[7]: "Unused output"
+  uo[7]: "DP (counter at F)"
 
   # Bidirectional pins
   uio[0]: "Unused bidirectional pin"
