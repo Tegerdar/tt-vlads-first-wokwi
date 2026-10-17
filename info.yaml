@@ -4,7 +4,7 @@ project:
   title: "Vlad's first Wokwi design" # Project title
   author: "Vladislavs Lazdāns" # Your name
   discord: "" # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description: "My first design that does something" # One line description of what your project does
+  description: "Hex (0-F) to 7-segment display decoder built from logic gates" # One line description of what your project does
   language: "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz: 0 # Clock frequency in Hz (or 0 if not applicable)
 
@@ -15,23 +15,23 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: "Unused input"
-  ui[1]: "Unused input"
-  ui[2]: "Unused input"
-  ui[3]: "Unused input"
+  ui[0]: "X0"
+  ui[1]: "X1"
+  ui[2]: "X2"
+  ui[3]: "X3"
   ui[4]: "Unused input"
   ui[5]: "Unused input"
   ui[6]: "Unused input"
   ui[7]: "Unused input"
 
   # Outputs
-  uo[0]: "Unused output"
-  uo[1]: "Unused output"
-  uo[2]: "Unused output"
-  uo[3]: "Unused output"
-  uo[4]: "Unused output"
-  uo[5]: "Unused output"
-  uo[6]: "Unused output"
+  uo[0]: "SEG_A"
+  uo[1]: "SEG_B"
+  uo[2]: "SEG_C"
+  uo[3]: "SEG_D"
+  uo[4]: "SEG_E"
+  uo[5]: "SEG_F"
+  uo[6]: "SEG_G"
   uo[7]: "Unused output"
 
   # Bidirectional pins
